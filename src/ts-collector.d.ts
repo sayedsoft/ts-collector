@@ -1,4 +1,4 @@
-declare module "@ts-collector" {
+declare module "ts-collector" {
   interface IItemWithName {
     name: string;
   }
