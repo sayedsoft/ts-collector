@@ -1,4 +1,4 @@
-declare module "item-collection" {
+declare module "@ts-collector" {
   interface IItemWithName {
     name: string;
   }
@@ -27,3 +27,5 @@ declare module "item-collection" {
 
   export { IItemCollection, IItemWithName, ItemCollection };
 }
+
+export {};
