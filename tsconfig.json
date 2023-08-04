@@ -17,6 +17,6 @@
     },
     "types": ["node"]
   },
-  "include": ["src", "./src/**/*", "./src/types/**/*","./src/pack-ts-collector.d.ts" ],
+  "include": ["src", "./src/**/*", "./src/types/**/*","./src/ts-collector.d.ts" ],
   "exclude": ["node_modules"]
 }
