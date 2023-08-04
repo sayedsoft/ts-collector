@@ -1,4 +1,4 @@
-declare module "collector" {
+declare module "collectme" {
   export interface IItemWithName {
     name: string;
   }
