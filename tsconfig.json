@@ -15,8 +15,8 @@
       "@tstypes/*": ["./src/types/*"],
       "@globals": ["./src/globals.ts"],
     },
-    "types": ["node", "express", "lodash"]
+    "types": ["node"]
   },
-  "include": ["src", "./src/**/*", "./src/types/**/*"],
+  "include": ["src", "./src/**/*", "./src/types/**/*","./src/pack-ts-collector.d.ts" ],
   "exclude": ["node_modules"]
 }
