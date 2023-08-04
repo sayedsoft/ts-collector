@@ -1,0 +1,26 @@
+{
+  "name": "pack-simple-with-auto-git",
+  "version": "1.0.0",
+  "author": "Ahmad Yaman SAYED",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node ./src/main.ts",
+    "dev": "npx nodemon ./src/main.ts",
+    "autogit": "chmod +x autogit.sh &&  ./autogit.sh"
+  },
+  "index": "index.js",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "knex": "^2.5.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
